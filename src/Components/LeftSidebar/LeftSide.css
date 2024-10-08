@@ -1,0 +1,26 @@
+.left-side{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 90vh;
+    width: 15vw;
+    margin-top: 2%;
+
+}
+
+
+.image {
+    display: block; /* Inline olarak değil, blok olarak görüntülenir */
+    margin-left: auto; /* Sol boşluk otomatik */
+    margin-right: auto; /* Sağ boşluk otomatik */
+    border-radius: 100px;
+    width: 10vw; /* İstenilen genişlik */
+    margin-top: 5px;
+}
+
+.left-side-content p{
+    text-align: center;
+    font-weight:bold;
+    font-size: 16px;
+}

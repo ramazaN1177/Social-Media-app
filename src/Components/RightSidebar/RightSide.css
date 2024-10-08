@@ -1,0 +1,29 @@
+.right-side{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 90vh;
+    width: 15vw;
+    margin-top: 2%;
+    
+}
+
+.right-side-content input{
+    display: block; /* Inline olarak değil, blok olarak görüntülenir */
+    width: 90%;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    margin-left: auto; /* Sol boşluk otomatik */
+    margin-right: auto; /* Sağ boşluk otomatik */
+    
+
+}
+
+.right-side-content p{
+    text-align: center;
+    font-weight:bold;
+    font-size: 16px;
+}
